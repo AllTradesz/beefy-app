@@ -90,6 +90,26 @@ const validatePools = async () => {
           `Error: ${pool.id} : Pool tokenDescription missing - required for UI: vault card`
         );
         exitCode = 1;
+      } else {
+        platformCounts[pool.platform] = platformCounts.hasOwnProperty(pool.platform)
+          ? platformCounts[pool.platform] + 1
+          : 1;
+      }
+
+      addressFields.forEach(field => {
+        if (pool.hasOwnProperty(field) && !isValidChecksumAddress(pool[field])) {
+          const maybeValid = maybeChecksumAddress(pool[field]);
+          console.error(
+            `Error: ${pool.id} : ${field} requires checksum - ${
+              maybeValid ? `\n\t${field}: '${maybeValid}',` : 'it is invalid'
+            }`
+          );
+          exitCode = 1;
+        }
+      });
+
+      if (pool.status === 'active') {
+        activePools++;
       }
 
       if (!pool.platform) {
