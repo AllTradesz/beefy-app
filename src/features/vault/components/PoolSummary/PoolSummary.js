@@ -36,6 +36,8 @@ const PoolSummary = ({
         ? t('Vault-DepositsPausedTitle')
         : null;
 
+    console.log(state, pool);
+
     if (launchpool) {
       state = t('Stake-BoostedBy', { name: launchpool.name });
     }
