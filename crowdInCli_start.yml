@@ -1,0 +1,8 @@
+"project_id": "460284"
+"api_token": "7bd96e1aaa9a95c3c8f00a1b0242cc92eaab3e96dcadf91fddd1b07130a5f2585360a0c33f56c830"
+"files": [
+  {
+    "source": "src/locales/en/*.json", 
+    "translation": "%original_file_name%"
+  }
+]
