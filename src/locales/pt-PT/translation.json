@@ -55,7 +55,7 @@
   "Vault-Description": "Usa: {{vault}}",
   "Vault-Network": "Rede",
   "Vault-Experimental": "Experimental",
-  "Vault-Loading": "Carregando Cofre",
+  "Vault-Loading": "Carregando Cofre...",
   "Vault-NotFound": "Cofre {{vaultId}} não encontrado",
   "Vault-Breakdown-VaultApr": "APR do Cofre",
   "Vault-Breakdown-TradingApr": "APR de Trading",
