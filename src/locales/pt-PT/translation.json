@@ -16,7 +16,7 @@
   "Vault-Balance": "Saldo",
   "Vault-APR": "APR",
   "Vault-APY": "APY",
-  "Vault-APYDaily": "Lucro diário",
+  "Vault-APYDaily": "Diário",
   "Vault-TVL": "TVL",
   "Vault-AutocompoundingNote": "Os cofres capitalizam com periodicidade optimizada",
   "Vault-Approving": "Aprovando...",
@@ -50,7 +50,7 @@
   "Vault-Harvesting": "Colhendo...",
   "Vault-HarvestButton": "Colheita",
   "Vault-HarvestConfirm": "Confirmar Colheita?",
-  "Vault-HarvestDescription": "Ao realizar a colheita, você está ajudando todos a coletar os lucros gerados neste cofre. Você irá receber {{callFee}}% dos ganhos do cofre desde a última colheita.",
+  "Vault-HarvestDescription": "Todos os cofres capitalizam automaticamente os juros. Favor notar que o modo manual deverá ser apenas utilizado por utilizadores mais avançados. Tendo em conta esta explicação, pretende mesmo assim continuar com este procedimento manual?",
   "Vault-HarvestSuccess": "Colhido com sucesso",
   "Vault-HarvestError": "Erro ao colher: {{error}}",
   "Vault-LastHarvest": "Última Colheita",
@@ -139,7 +139,7 @@
   "Remove-Liquidity": "Remover Liquidez",
   "Buy-Token": "Comprar Token",
   "Wrap-BNB": "Wrap BNB",
-  "Boost": "Turbinar",
+  "Boost": "Boost",
   "Experimental": "Experimental",
   "Select-Network": "Selecione a Rede"
 }
